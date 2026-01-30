@@ -7,4 +7,7 @@ add_executable(json_yaml_converter)
 target_sources(json_yaml_converter
     PRIVATE
         src/main.cpp
+        src/json_scanner.cpp
+        src/json_token_type.h
+        src/json_token.h
 )

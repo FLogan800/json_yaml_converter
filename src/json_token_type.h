@@ -1,4 +1,7 @@
-enum token_type
+#ifndef JSON_TOKEN_TYPE
+#define JSON_TOKEN_TYPE
+
+enum json_token_type
 {
     // Structural tokens
     token_left_square_bracket,
@@ -19,3 +22,5 @@ enum token_type
     token_number,
     token_string,
 };
+
+#endif
